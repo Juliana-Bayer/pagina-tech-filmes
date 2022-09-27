@@ -1,0 +1,371 @@
+body{
+    background-image: url(img/rolofilme.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1000px;
+    background-image: opacity "15";
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+    }
+
+:root {
+    --input-liner: linear-gradient(120deg,  rgb(195, 208, 238), rgb(241, 153, 44));
+    --button-linear: linear-gradient(120deg,  rgb(195, 208, 238), rgb(241, 153, 44));
+    --white: #fff;
+    --black: #000000;
+    --gray: rgb(97, 97, 94);
+    --font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --orangees: rgb(221, 149, 16);
+    --orangecl: rgb(241, 153, 44);
+    --blue:  rgb(195, 208, 238);
+}
+     
+.logo{
+   
+    border: 2px solid var(--orangees);
+    border-radius: 10px;
+    position:static;
+    left: 30px;
+    background-color: var(--orangecl);
+    font-size: x-large;
+    font-family: var(--font);
+    text-align: center;
+}
+
+.texto1{
+    position:static;
+    top: 30px;
+    font-size: 18px;
+    color: var(--orangees);
+    left: 30px;
+    font-family: var(--font);
+    text-align: justify;
+    
+}
+.falec{
+    
+    position: relative;
+    top:5px;
+    font-size:medium;
+    text-align: right;
+    font-family:var(--font);
+}
+.algfilmes{
+    position:static;
+    left: 30px;
+    border: 3px solid var(--orangees);
+    border-radius: 10px;
+    background-color: var(--orangecl);
+    font-size:larger;
+    font-family:var(--font);
+    text-align: center;
+}
+
+.jobs{
+    position:static;
+    background-color: var(--orangecl);
+    font-family: var(--font);
+    font-size: 24px;
+    text-align:left;
+    border: solid var(--black);
+    border-radius: 10px;
+    font-size: 18px;
+    color: var(--black);
+}
+
+.imgjobs{
+  position:static;
+  display: block;
+  margin-left:39%;
+  width: 100px;
+  height:180px;
+ 
+}
+.imgmatrix{
+  position:static;
+  display: block;
+  margin-left:39%;
+  margin-right: auto;
+  width:500%;
+  height:400%;
+  
+}
+
+.video{
+  position:static;
+  margin-left:23%;
+  margin-right: auto;
+  width:500%;
+  height:400%;
+ 
+
+    
+}
+
+.trailer{
+    font-size:23px;
+    background-color: var(--orangees);
+    font-family: var(--font);
+    text-align: center;
+    position:static;
+    border: solid var(--black);
+    border-radius: 10px;
+}
+
+.textojobs{
+    font-family:var(--font);
+    text-align: justify;
+    font-size: 18px;
+    color: var(--orangees);
+    
+}
+
+.titmatrix{
+   
+    background-color: var(--orangecl);
+    font-family:var(--font);
+    font-size: 24px;
+    text-align:left;
+    border: solid var(--black);
+    border-radius: 10px;
+}
+
+.textmatrix{
+    
+    font-family:var(--font);
+    text-align: justify;
+    font-size: 18px;
+    color: var(--orangees);
+
+}
+
+
+.variedade{
+    font-size:medium;
+    background-color: var(--orangees);
+    font-family:var(--font);
+    text-align: justify; 
+    border: solid var(--black);
+    border-radius: 10px;
+}
+
+.fsd{
+    font-family:var(--font);
+    text-align: justify; 
+    font-size: 18px;
+    color: var(--orangees);
+}
+
+.titfc{
+    background-color: var(--orangees);
+    font-size:larger;
+    font-family: var(--font);
+}
+
+
+.documentario{
+    background-color:var(--orangees);
+    font-size:larger;
+    font-family:var(--font); 
+}
+
+.filme{
+    background-color:var(--orangees);
+    font-size:larger;
+    font-family:var(--font); 
+}
+
+.serie{
+    background-color: var(--orangees);
+    font-size:larger;
+    font-family:var(--font); 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-family: var(--font);
+    font-size: 3rem;
+    font-size:38px;
+    color: rgb(252, 164, 0); text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.galeria-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 2vw;
+}
+
+.galeria-itens{
+    width: 340px;
+    height: 400px;
+    border: 10px solid var(--orangecl);
+    box-shadow: 5px 5px 5px var(--black) ;
+ 
+    transition: transform .5s linear;
+  
+}
+
+.galeria-itens img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+
+.galeria-itens:hover{
+    transform: scale(1.3);
+   
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    color: var(--black);
+    font-style: italic;
+}
+
+
+.login {
+    height: 100vh;
+    background: var(--input-liner);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__container {
+    position: inherit;
+    min-height: 400px;
+    width: 300px;
+    background-color: var(--white);
+    box-sizing: border-box;
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerform {
+    position: relative;
+    margin: 40px;
+    justify-self:left;
+    min-height: 500px;
+    width: 500px;
+    background-color: rgb(243, 215, 155);
+    box-sizing: border-box;
+    padding: 80px;
+    border-radius: 8px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario{
+    font-size:18px;
+    font-family: var(--black);
+    text-align: justify;
+    color:var(--black);
+}
+
+.login__tittle {
+    margin-bottom: 32px;
+    color: var(--black)
+}
+
+.login__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__input {
+    height: 48px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border: unset;
+    outline: none;
+}
+
+.login__input-border {
+    height: 1px;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: var(--gray);
+    transition: 0.3s ease-in-out;
+}
+
+.login__input-border::after {
+    content: '';
+    display: block;
+    height: 1 px;
+    width: 0;
+    margin-bottom: 16px;
+    background: var(--input-liner);
+    transition: 0.3s ease-in-out;
+}
+
+.login__input:focus + .login__input-border::after {
+    width: 100%;
+}
+
+.login__submit {
+    height: 48px;
+    width: 100%;
+    outline: none;
+    background: var(--button-linear);
+    background-size: 200%;
+    margin-bottom: 32px;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.login__submit:hover {
+    background-position: right;
+}
+
+.login__reset {
+    font-size: 12px;
+    color:var(--gray);
+    text-decoration: none;
+
+}
+
+.login__cadast {
+    font-size: 14px;
+    color:var(--black);
+    text-decoration: none;
+
+}
+
+.acessofilme{
+    position:static;
+    background-color: var(--blue);
+    font-size:larger;
+    font-family: var(--font); 
+    text-align: center;
+    
+}
+

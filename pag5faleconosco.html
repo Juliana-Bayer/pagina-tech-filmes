@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <div class="corfundo">
+        <title>"tech flix</title>
+        <meta charset="utf-8">
+        <link href="estilo.css" rel="stylesheet">
+
+    </head>
+
+    
+    <body>
+        
+    <div class="logo">
+        <h1>TECH FLIX</h1>
+    </div>
+
+    <br><br>
+    
+    <div class="buttonv">
+        
+        <a href="index.html"><button>Voltar</button></a>
+      
+    
+    </div>
+
+    <br><br>
+
+    <div class="titfc">
+    <h2>FALE CONOSCO</h2>
+    </div>
+
+    <br><br>
+
+   
+        
+    <div class="containerform">
+    <div class="formulario">
+        <form action="/pagina-processa-dados-do-form" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" />
+    
+            <br><br><br>
+        
+            Data de nascimento: <input type="date" name="nascimento">
+        
+            <br><br><br>
+        
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" />
+        
+            <br><br><br>
+        
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg"></textarea>
+        
+            <br><br><br>
+        
+            <legend>Quantos vezes na semana costuma assistir algo por mais de 1 hora:</legend>
+            Quantidade (entre 1 e 7): <input type="number" name="quantidade" min="1" max="7">    
+        
+            <br><br><br>
+
+        <fieldset>
+            <legend>Tem preferência por:</legend>
+        
+            
+              <input type="checkbox" id="filme" name="Filmes"
+                     checked>
+              <label for="Filmes">Filmes</label>
+            
+        
+            
+              <input type="checkbox" id="video" name="videos">
+              <label for="video">Vídeos</label>
+            
+
+            
+                <input type="checkbox" id="docum" name="docum">
+                <label for="docum">Documentário</label>
+              
+                <input type="checkbox" id="todos" name="todos">
+                <label for="todos">Todos</label>
+              
+        </fieldset>
+        <br>
+        
+            Defina seu nível de satisfação com nosso site:<br>
+            pouco satisfeito
+            <input type="range" name="satisfacao" min="0" max="10">
+            muito satisfeito
+        
+        <br><br><br>
+        <div class="button">
+            <button type="submit">Enviar sua mensagem</button>
+            <br><br><br>
+        </div>
+    </form>
+</div>
+    </div>
+</div>
+<footer>
+    <span>TECH FILMES | JULIANA BAYER</span>
+</footer>
+</body>
+</html>
